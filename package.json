@@ -6,5 +6,14 @@
   "repository": "https://github.com/maevadevs/mongoose-custom-validators",
   "author": "maevadevs <maevadevs@users.noreply.github.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "password validation",
+    "mongoose password",
+    "mongoose validate password",
+    "mongoose schema password",
+    "isValidPassword",
+    "validator",
+    "isPassword"
+  ]
 }
