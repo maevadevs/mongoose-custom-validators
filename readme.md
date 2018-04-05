@@ -20,9 +20,17 @@ Validates password string against the requirements properties. By default, we op
       nonalpha: true   // <Boolean>  Have at least 1 Nonalpha character
     }
 
+#### Installation
+
+    npm i mongoose-custom-validators --save
+
+or
+
+    yarn add mongoose-custom-validators
+
 #### Usage
 
-    const { isValidPassword } = require('./customValidators.js')
+    const { isValidPassword } = require('mongoose-custom-validators')
 
 To override some or all of the defaults, pass in an object with the criterias properties to override. **Non-overriden criterias will be using the `defaultRequire`.** The only acceptable properties are the ones listed above under the `defaultRequire`
 
