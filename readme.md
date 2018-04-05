@@ -18,7 +18,7 @@ or
 
 #### Signature: `(String, require = defaultRequire) => Boolean`
 
-Validates password string against the requirements properties. By default, we opt for a strong password the must meet the following criterias:
+Validates password string against the requirements properties. By default, we opt for a strong password that must meet the following criterias:
 
     defaultRequire = {
       minlength: 10,   // <Number>   At least 10 characters long (optional)
@@ -32,9 +32,9 @@ Validates password string against the requirements properties. By default, we op
 
     const { isValidPassword } = require('mongoose-custom-validators')
 
-To override some or all of the defaults, pass in an object with the criterias properties to override. **Non-overriden criterias will be using the `defaultRequire`.** The only acceptable properties are the ones listed above under the `defaultRequire`
+To override some or all of the defaults, pass in an object with the criterias properties to override. **Non-overriden criterias will be using the `defaultRequire`.** The only acceptable properties are the ones listed under the `defaultRequire`
 
-If using just the `defaultRequire`, simply pass the function as the validator
+If using `defaultRequire`, simply pass the function as the validator
 
     validate: {
       validator: isValidPassword,
