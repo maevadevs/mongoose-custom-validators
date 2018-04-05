@@ -2,6 +2,14 @@
 
 This repository contains some custom validators for Mongoose Schema. It complements the validators that are already found within [Mongoose](http://mongoosejs.com/docs/validation.html) itself *AND* the [`validator`](https://www.npmjs.com/package/validator) package.
 
+## Installation
+
+    npm i mongoose-custom-validators --save
+
+or
+
+    yarn add mongoose-custom-validators
+
 ## List of Custom Validators
 
 - [isValidPassword](#isValidPassword)
@@ -19,14 +27,6 @@ Validates password string against the requirements properties. By default, we op
       number: true,    // <Boolean>  Have at least 1 number
       nonalpha: true   // <Boolean>  Have at least 1 Nonalpha character
     }
-
-#### Installation
-
-    npm i mongoose-custom-validators --save
-
-or
-
-    yarn add mongoose-custom-validators
 
 #### Usage
 
