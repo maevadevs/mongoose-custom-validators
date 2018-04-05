@@ -1,6 +1,6 @@
 {
   "name": "mongoose-custom-validators",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A collection of custom validators for Mongoose that complements Mongoose validators and the validator package.",
   "main": "index.js",
   "repository": "https://github.com/maevadevs/mongoose-custom-validators",
